@@ -48,3 +48,21 @@
     header ul li a:hover {
         color: #f7b731;
     }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 80px;
+    }
+
+    .main-text {
+        max-width: 500px;
+    }
+
+    .main-text h4 {
+        color: #f7b731;
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
