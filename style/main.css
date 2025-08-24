@@ -1,0 +1,113 @@
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: hsl(293, 81%, 80%);
+    }
+    header {
+      background: palevioletred;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 16px 40px;
+    }
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      
+    }
+    .logo::before {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+      margin-right: 10px;
+    }
+    nav {
+      margin-left: auto;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 18px;
+      font-size: 1em;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: hsl(298, 78%, 73%);
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 0 0 0;
+    }
+    .profile-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      background:palevioletred;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 60px;
+
+    }
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .about-section {
+      max-width: 520px;
+    }
+    .about-section h2 {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    .about-section h2 {
+      position: relative;
+    }
+    .about-section h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: pink;
+      margin: 10px 0 0 0;
+    }
+    .about-section p {
+      font-size: 1.08em;
+      color: #444;
+      margin: 24px 0 32px 0;
+      line-height: 1.6;
+    }
+    .social-icons {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    .social-icons a {
+      color: #4b2323;
+      font-size: 1.7em;
+      transition: color 0.2s;
+    }
+    .social-icons a:hover {
+      color: hsl(280, 23%, 97%);
+    }
+    .social-icons .fa {
+      cursor: pointer;
+    }
+    /* footer {
+      background: hsl(340, 76%, 64%);
+      color: #fff;
+      text-align: center;
+      padding: 24px 0 12px 0;
+      font-size: 1em;
+      margin-top: 60px;
+    } */
