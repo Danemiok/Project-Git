@@ -107,32 +107,6 @@
         width: 350px;
     }
 
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: hsl(293, 81%, 80%);
-    }
-    header {
-      background: palevioletred;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      padding: 16px 40px;
-    }
-    .logo {
-      font-size: 1.5em;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      
-    }
-    .logo::before {
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-      background-size: contain;
-      margin-right: 10px;
-    }
     nav {
       margin-left: auto;
     }
@@ -151,7 +125,7 @@
       align-items: center;
       justify-content: start;
       padding: 60px 0 0 0;
-      margin: 20px;
+      margin: 70px;
     }
     .profile-img {
       width: 300px;
