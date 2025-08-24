@@ -107,32 +107,7 @@
         width: 350px;
     }
 
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: hsl(293, 81%, 80%);
-    }
-    header {
-      background: palevioletred;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      padding: 16px 40px;
-    }
-    .logo {
-      font-size: 1.5em;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      
-    }
-    .logo::before {
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-      background-size: contain;
-      margin-right: 10px;
-    }
+    /* about */
     nav {
       margin-left: auto;
     }
@@ -211,11 +186,74 @@
     .social-icons .fa {
       cursor: pointer;
     }
-    /* footer {
-      background: hsl(340, 76%, 64%);
-      color: #fff;
+
+/* menu */
+    .menu{
+      margin-top: 80px;
+    }
+
+    .menu h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 34px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+    
+    .container-menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      justify-content: space-between;
+      gap: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      border-radius: 8px;
       text-align: center;
       padding: 24px 0 12px 0;
       font-size: 1em;
       margin-top: 60px;
+    } 
+    /* menu
+
+      padding: 15px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     } */
+
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #e91e63;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #d81b60;
+    }
