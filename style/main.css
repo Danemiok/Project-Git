@@ -125,7 +125,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #4b2323;
+      /* background: #4b2323; */
       height: 90vh;
       /* gap: 100px; */
     }
