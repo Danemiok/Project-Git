@@ -1,116 +1,120 @@
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
     }
 
     body {
-        background: #d67f7f;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
+      background: #d67f7f;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
     }
 
     header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 16px 40px;
-        background-color: #b95757;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 40px;
+      background-color: #b95757;
     }
 
     header .logo {
-        display: flex;
-        align-items: center;
-        font-size: 20px;
-        font-weight: bold;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
     }
 
     header .logo img {
-        width: 40px;
-        margin-right: 10px;
+      width: 40px;
+      margin-right: 10px;
     }
 
     header ul {
-        list-style: none;
-        display: flex;
-        gap: 40px;
-        font-weight: bold;
+      list-style: none;
+      display: flex;
+      gap: 40px;
+      font-weight: bold;
     }
 
     header ul li a {
-        text-decoration: none;
-        color: #fff;
-        font-size: 18px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
     }
 
     header ul li a:hover {
-        color: #f7b731;
+      color: #f7b731;
     }
 
     .main {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px 80px;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 80px;
+      
     }
 
     .main-text {
-        max-width: 500px;
+      max-width: 42%;
     }
 
     .main-text h4 {
-        color: #f7b731;
-        font-size: 50px;
-        margin-bottom: 10px;
-        font-style: italic;
+      color: #f7b731;
+      font-size: 50px;
+      margin-bottom: 10px;
+      font-style: italic;
     }
 
     .main-text h1 {
-        font-size: 38px;
-        margin-bottom: 15px;
-        line-height: 1.3;
+      font-size: 38px;
+      margin-bottom: 15px;
+      line-height: 1.3;
     }
 
     .main-text p {
-        margin-bottom: 25px;
-        color: #ddd;
-        font-size: 20px;
+      margin-bottom: 25px;
+      color: #ddd;
+      font-size: 20px;
     }
 
     .buttons {
-        display: flex;
-        gap: 20px;
+      display: flex;
+      gap: 20px;
     }
 
     .btn-primary {
-        background: #f7b731;
-        padding: 12px 25px;
-        border: none;
-        border-radius: 25px;
-        font-weight: bold;
-        cursor: pointer;
-        color: #000;
+      background: #f7b731;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #000;
     }
 
     .btn-secondary {
-        background: transparent;
-        border: 2px solid #fff;
-        padding: 12px 25px;
-        border-radius: 25px;
-        cursor: pointer;
-        color: #fff;
+      background: transparent;
+      border: 2px solid #fff;
+      padding: 12px 25px;
+      border-radius: 25px;
+      cursor: pointer;
+      color: #fff;
     }
 
     .main img {
-        width: 350px;
+      width: 350px;
     }
 
     /* about */
     nav {
       margin-left: auto;
     }
+
     nav a {
       color: #fff;
       text-decoration: none;
@@ -118,9 +122,11 @@
       font-size: 1em;
       transition: color 0.2s;
     }
+
     nav a:hover {
       color: hsl(298, 78%, 73%);
     }
+
     .container {
       display: flex;
       align-items: center;
@@ -129,6 +135,7 @@
       height: 90vh;
       /* gap: 100px; */
     }
+
     .profile-img {
       width: 350px;
       height: 350px;
@@ -138,14 +145,17 @@
       margin-right: 60px;
 
     }
+
     .profile-img img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+
     .about-section {
       max-width: 520px;
     }
+
     .about-section h2 {
       font-size: 2.2em;
       font-weight: bold;
@@ -160,31 +170,36 @@
       background: pink;
       margin: 10px 0 0 0;
     }
+
     .about-section p {
       font-size: 1.08em;
       color: #444;
       margin: 24px 0 32px 0;
       line-height: 1.6;
     }
+
     .social-icons {
       display: flex;
       gap: 32px;
       align-items: center;
     }
+
     .social-icons a {
       color: #4b2323;
       font-size: 1.7em;
       transition: color 0.2s;
     }
+
     .social-icons a:hover {
       color: hsl(280, 23%, 97%);
     }
+
     .social-icons .fa {
       cursor: pointer;
     }
 
-/* menu */
-    .menu{
+    /* menu */
+    .menu {
       margin-top: 80px;
     }
 
@@ -195,7 +210,7 @@
       font-weight: bold;
       margin-bottom: 40px;
     }
-    
+
     .container-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -211,7 +226,7 @@
       text-align: center;
       padding: 15px;
       background: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
 
@@ -248,3 +263,191 @@
     .btn:hover {
       background: #d81b60;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+  header ul {
+    gap: 20px;
+  }
+
+  .main {
+    padding: 40px 30px;
+  }
+
+  .main-text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .main-text h4 {
+    font-size: 40px;
+  }
+
+  .main-text h1 {
+    font-size: 32px;
+  }
+
+  .main-text p {
+    font-size: 18px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .main img {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .main {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .main-text h4 {
+    font-size: 32px;
+  }
+
+  .main-text h1 {
+    font-size: 26px;
+  }
+
+  .main-text p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .main img {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .menu h2 {
+    font-size: 28px;
+  }
+
+  .container-menu {
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .menu {
+    margin-top: 50px;
+  }
+
+  .menu h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .container-menu {
+    grid-template-columns: 1fr; /* single column */
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .card h3 {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
