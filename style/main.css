@@ -269,3 +269,191 @@
     .btn:hover {
       background: #d81b60;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+  header ul {
+    gap: 20px;
+  }
+
+  .main {
+    padding: 40px 30px;
+  }
+
+  .main-text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .main-text h4 {
+    font-size: 40px;
+  }
+
+  .main-text h1 {
+    font-size: 32px;
+  }
+
+  .main-text p {
+    font-size: 18px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .main img {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .main {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .main-text h4 {
+    font-size: 32px;
+  }
+
+  .main-text h1 {
+    font-size: 26px;
+  }
+
+  .main-text p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .main img {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .menu h2 {
+    font-size: 28px;
+  }
+
+  .container-menu {
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .menu {
+    margin-top: 50px;
+  }
+
+  .menu h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .container-menu {
+    grid-template-columns: 1fr; /* single column */
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .card h3 {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
