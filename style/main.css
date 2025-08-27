@@ -125,17 +125,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 60px 0 0 0;
+      background: #4b2323;
+      height: 90vh;
+      /* gap: 100px; */
     }
     .profile-img {
-      width: 250px;
-      height: 250px;
+      width: 350px;
+      height: 350px;
       border-radius: 50%;
       overflow: hidden;
       background:palevioletred;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-right: 60px;
 
     }
@@ -148,13 +147,10 @@
       max-width: 520px;
     }
     .about-section h2 {
-      font-size: 2em;
+      font-size: 2.2em;
       font-weight: bold;
       margin-bottom: 10px;
       letter-spacing: 1px;
-    }
-    .about-section h2 {
-      position: relative;
     }
     .about-section h2::after {
       content: '';
