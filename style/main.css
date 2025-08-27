@@ -5,6 +5,9 @@
       font-family: Arial, sans-serif;
     }
 
+    hmtl{
+      scroll-behavior: smooth;
+    }
     body {
         background: #d67f7f;
         color: #fff;
