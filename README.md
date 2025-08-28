@@ -51,6 +51,8 @@ Pka Blush seems perfect for those looking for a budget-friendly, travel-savvy, a
 
 ## 📎 Deployed Link
 
+https://project-git-two.vercel.app/
+
 
 
 ##  Screenshots (Optional)
