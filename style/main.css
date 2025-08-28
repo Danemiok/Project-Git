@@ -406,165 +406,119 @@ footer p {
 
 
 
+/* Default (Computer/Desktop) is already defined in your code */
 
-
-/* ========================= */
-/* RESPONSIVE DESIGN */
-/* ========================= */
-
-/* Tablets */
-@media (max-width: 992px) {
+/* Tablet (768px and below) */
+@media (max-width: 1024px) {
+  header {
+    padding: 16px 20px;
+  }
   header ul {
     gap: 20px;
   }
-
   .main {
-    padding: 40px 30px;
-  }
-
-  .main-text {
-    max-width: 100%;
+    flex-direction: column;
     text-align: center;
-    margin-bottom: 30px;
+    height: auto;
+    padding: 40px 20px;
   }
-
-  .main-text h4 {
-    font-size: 40px;
+  .main-text {
+    max-width: 80%;
   }
-
-  .main-text h1 {
-    font-size: 32px;
-  }
-
-  .main-text p {
-    font-size: 18px;
-  }
-
-  .buttons {
-    justify-content: center;
-  }
-
   .main img {
-    margin: 0 auto;
-    display: block;
+    margin-top: 20px;
+    width: 280px;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .profile-img {
+    margin: 0 0 30px 0;
+  }
+  .about-section {
+    max-width: 80%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 20px;
+    height: auto;
+    text-align: center;
+  }
+  form {
+    width: 100%;
   }
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header {
     flex-direction: column;
-    padding: 20px;
+    gap: 15px;
   }
-
   header ul {
     flex-direction: column;
-    gap: 15px;
-    margin-top: 15px;
-  }
-
-  .main {
-    flex-direction: column;
-    padding: 30px 20px;
-    text-align: center;
+    gap: 10px;
+    align-items: center;
   }
 
   .main-text h4 {
-    font-size: 32px;
+    font-size: 36px;
   }
-
   .main-text h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
-
   .main-text p {
     font-size: 16px;
   }
-
   .buttons {
     flex-direction: column;
     gap: 15px;
     align-items: center;
   }
 
-  .main img {
+  .profile-img {
     width: 250px;
-    margin-top: 20px;
+    height: 250px;
   }
-}
 
+  .about-section h2 {
+    font-size: 1.8em;
+  }
+  .about-section p {
+    font-size: 1em;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ========================= */
-/* RESPONSIVE DESIGN */
-/* ========================= */
-
-/* Tablets */
-@media (max-width: 992px) {
   .menu h2 {
     font-size: 28px;
   }
-
   .container-menu {
-    gap: 30px;
-    padding: 0 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .card h3 {
+  .contact-container {
+    padding: 40px 20px;
+  }
+  .contact-info {
     font-size: 16px;
   }
-
-  .price {
-    font-size: 15px;
-  }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-  .menu {
-    margin-top: 50px;
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    font-size: 13px;
   }
 
-  .menu h2 {
-    font-size: 24px;
-    margin-bottom: 25px;
-  }
-
-  .container-menu {
-    grid-template-columns: 1fr; /* single column */
-    gap: 20px;
-    padding: 0 15px;
-  }
-
-  .card {
-    padding: 12px;
-  }
-
-  .card h3 {
-    font-size: 15px;
-  }
-
-  .price {
+  footer {
     font-size: 14px;
   }
-
-  .btn {
-    font-size: 13px;
-    padding: 8px 12px;
+  .footer-links li {
+    display: block;
+    margin: 10px 0;
   }
 }
