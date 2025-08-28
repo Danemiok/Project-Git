@@ -405,136 +405,111 @@ footer p {
 
 
 
-
-/* Default (Computer/Desktop) is already defined in your code */
-
-/* Tablet (768px and below) */
-@media (max-width: 1024px) {
+/* ===== Tablet Styles (≥768px) ===== */
+@media (min-width: 768px) {
   header {
-    padding: 16px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 30px;
   }
   header ul {
+    flex-direction: row;
     gap: 20px;
   }
+
   .main {
-    flex-direction: column;
-    text-align: center;
-    height: auto;
-    padding: 40px 20px;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    padding: 40px;
   }
   .main-text {
-    max-width: 80%;
+    max-width: 60%;
   }
   .main img {
-    margin-top: 20px;
     width: 280px;
+    margin: 0;
+  }
+  .buttons {
+    flex-direction: row;
+    justify-content: flex-start;
   }
 
   .container {
-    flex-direction: column;
-    height: auto;
-    padding: 40px 20px;
-    text-align: center;
-  }
-  .profile-img {
-    margin: 0 0 30px 0;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    gap: 40px;
   }
   .about-section {
-    max-width: 80%;
+    max-width: 60%;
+  }
+  .profile-img {
+    margin: 0;
+  }
+
+  .container-menu {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .contact-container {
-    flex-direction: column;
-    gap: 40px;
-    padding: 60px 20px;
-    height: auto;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
+    padding: 80px 40px;
+    gap: 50px;
   }
   form {
-    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer-links li {
+    display: inline-block;
+    margin: 0 10px;
   }
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    gap: 15px;
-  }
+/* ===== Desktop Styles (≥1024px) ===== */
+@media (min-width: 1024px) {
   header ul {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
+    gap: 40px;
   }
 
+  .main {
+    padding: 50px 80px;
+    height: 90vh;
+    justify-content: space-between;
+  }
+  .main-text {
+    max-width: 42%;
+  }
   .main-text h4 {
-    font-size: 36px;
+    font-size: 50px;
   }
   .main-text h1 {
-    font-size: 28px;
+    font-size: 38px;
   }
-  .main-text p {
-    font-size: 16px;
-  }
-  .buttons {
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
+  .main img {
+    width: 350px;
   }
 
-  .profile-img {
-    width: 250px;
-    height: 250px;
+  .container {
+    padding: 80px;
+  }
+  .about-section {
+    max-width: 30%;
   }
 
-  .about-section h2 {
-    font-size: 1.8em;
-  }
-  .about-section p {
-    font-size: 1em;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-/* ========================= */
-/* RESPONSIVE DESIGN */
-/* ========================= */
-
-/* Tablets */
-@media (max-width: 992px) {
-  .menu h2 {
-    font-size: 28px;
-  }
   .container-menu {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: auto;
   }
 
   .contact-container {
-    padding: 40px 20px;
+    gap: 100px;
+    padding: 200px;
   }
-  .contact-info {
-    font-size: 16px;
-  }
-  form input[type="text"],
-  form input[type="email"],
-  form textarea {
-    font-size: 13px;
-  }
-
-  footer {
-    font-size: 14px;
-  }
-  .footer-links li {
-    display: block;
-    margin: 10px 0;
+  form {
+    max-width: 500px;
   }
 }
